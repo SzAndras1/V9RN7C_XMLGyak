@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.iit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: contrast(90%);
+  width: 300px;
+}
+
+.presentation {
+  width: 25%;
+  margin-left: 70%;
+  margin-top: -21%;
+}
+
+.textblock{
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+.column,
+.row,
+.copyrights {text-align: center;}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+html{
+  background-color: #626ED4;
+  color: rgb(255, 255, 255);
+}
+
+.copyrights{
+  line-height: 16;
+}
+
+
+</style>
+</head>
+<body>
+
+<a href="kezdolap.html"><img class="iit" src="iit.jpg" class="center"></a>
+
+<div class="row" class="center">
+  <div class="column">
+    <h2><a href="adatstrukturak.html">Adatstruktúrák és algoritmusok</a></h2>
+  </div>
+  <div class="column">
+    <h2><a href="adatbazis.html">Adatbázisrendszerek</a></h2>
+  </div>
+  <div class="column">
+    <h2><a href="parhuzamos.html">Párhuzamos algoritmusok</a></h2>
+  </div>
+</div>
+
+<div class="textblock">
+<h1>Adatbázisrendszerek</h1>
+<p>Ez a kurzus az adatbázisrendszerek alapjait tartalmazza</p>
+<p><b>Tartalom</b></p>
+<ul>
+  <li>Adatbáziskezelés alapfogalmai</li>
+  <li>ER-modell és relációs adatmodell</li>
+  <li>PostgreSQL története</li>
+  <li>Projekció, csoportképzés</li>
+  <li>Az SQL nyelv alapjai</li>
+  <li>SQL DDL, DML, DQL, DCL parancsai</li>
+  <li>noSQL adatmodellek</li>
+</ul>
+</div>
+
+<img class="presentation" src="adatbazis.png">
+
+<div class="copyrights"><h2>© Minden jog fenntartva!</p></div>
+
+</body>
+</html>

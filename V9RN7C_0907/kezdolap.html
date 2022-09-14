@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: contrast(90%);
+  width: 300px;
+}
+
+.textblock{
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+.column,
+.row,
+.copyrights {text-align: center;}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+html{
+  background-color: #626ED4;
+  color: rgb(255, 255, 255);
+}
+
+.copyrights{
+  line-height: 22;
+}
+
+.source{
+  margin-top: 3%;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<a href="kezdolap.html"><img src="iit.jpg" class="center"></a>
+
+<div class="row" class="center">
+  <div class="column">
+    <h2><a href="adatstrukturak.html">Adatstruktúrák és algoritmusok</a></h2>
+  </div>
+  <div class="column">
+    <h2><a href="adatbazis.html">Adatbázisrendszerek</a></h2>
+  </div>
+  <div class="column">
+    <h2><a href="parhuzamos.html">Párhuzamos algoritmusok</a></h2>
+  </div>
+</div>
+
+<div class="textblock">
+<p><b>Üdvözlöm a honlapomon!</b></p>
+
+<p>Ezt a kis weblapot a Web technológiák kurzuson készítettem el.</p>
+<p class="source"><b>Forrás:</b></br>
+Farkas Csaba - Fodor Gábor Antal: Windows 10 és Office 2016 középfokon.</br>
+Budapest: Jedlik Oktatási Stúdió, 2016.</p>
+</div>
+
+<div class="copyrights"><h2>© Minden jog fenntartva!</p></div>
+
+
+</body>
+</html>
