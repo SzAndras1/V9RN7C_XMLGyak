@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>Mi az a Docker és hol használjuk?</cim>
+    <eloado nev="Valami Péter" lakcim="Miskolc, Szövő u. 231" adoszam="431232312"/>
+    <datum>2022.11.04</datum>
+    <hallgatok>
+        <hallgató id="1" nev="Valaki György" lakcim="Miskolc, Pálma u. 32"/>
+        <hallgató id="2" nev="Másik Pál" lakcim="Miskolc, Szinyei Merse Pál u. 6"/>
+    </hallgatok>
+    <helyszin>XXXII. előadó</helyszin>
+</konferencia>
