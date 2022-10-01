@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ERmodell SYSTEM "V9RN7C_ertodtd.dtd">
+
+<ERmodell>
+    <A Aa="Element_1">
+        <Ab>
+            <Abx></Abx>
+            <Aby></Aby>
+        </Ab>
+        <Ac>
+            <Acd></Acd>
+            <Ace></Ace>
+        </Ac>
+    </A>
+    <AtoB AtoBa="Element_1" AtoBb="Element_2">
+        <AtoBc></AtoBc>
+    </AtoB>
+    <B Ba="Element_2">
+        <Bb>
+            <Bbx></Bbx>
+            <Bby></Bby>
+        </Bb>
+    </B>
+    <C Ca="Element_3" CtoB="Element_2">
+        <Cb></Cb>
+    </C>
+</ERmodell>

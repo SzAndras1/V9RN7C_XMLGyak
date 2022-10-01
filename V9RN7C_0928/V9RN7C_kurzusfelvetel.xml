@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE kurzusfelvetel SYSTEM "V9RN7C_kurzusfelvetel.dtd">
+<kurzusfelvetel tanev="2022 2023 I." egyetem="ME">
+    <hallgato id="KPRLNM.ME">
+        <hnev>Kovács János</hnev>
+        <szulev>2004-04-05</szulev>
+        <szak evf="5">Programtervező informatikus</szak>
+    </hallgato>
+    <kurzusok>
+        <kurzus id="GEIAL332-B">
+            <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII.</hely>
+            <idopont>Kedd 12:00-13:30</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+        <kurzus id="GEIAL322-B" jovahagyas="igen">
+            <kurzusnev>Adatbázis rendszerek I.</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In101</hely>
+            <idopont>Kedd 08:00-09:30</idopont>
+            <oktato>Dr. Kovács László</oktato>
+        </kurzus>
+        <kurzus id="GEIAL333-B" nyelv="angol">
+            <kurzusnev>Webalkalmazás fejlesztés-Java</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In103</hely>
+            <idopont>Csütörtök 08:00-09:30</idopont>
+            <oktato>Dr. Barabás Péter</oktato>
+            <oraado>Tóth Bence</oraado>
+        </kurzus>
+    </kurzusok>
+</kurzusfelvetel>
+            
+    
