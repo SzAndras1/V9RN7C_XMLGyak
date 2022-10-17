@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="XMLSchemaV9RN7C.xsd">
+    <etterem ekod="sge-dnu-32">
+        <nev>Hajdúszoboszlói étterem</nev>
+        <cim>
+            <varos>Hajdúszoboszló</varos>
+            <utca>Varoshaza tér</utca>
+            <hazszam>32</hazszam>
+        </cim>
+        <csillag>5</csillag>
+    </etterem>
+    <vendeg vkod="nhz-djz-22">
+        <nev>Német Lajos</nev>
+        <eletkor>20</eletkor>
+        <cim>
+            <varos>Pocsaj</varos>
+            <utca>Gabor utca</utca>
+            <hazszam>1/D</hazszam>
+        </cim>
+    </vendeg>
+    <gyakornok gykod="smu-dm2-d7" e_gy="sge-dnu-32">
+        <nev>Márk</nev>
+        <gyakorlat>
+            <kezdete>2022.03.02</kezdete>
+            <idotartama>12 hét</idotartama>
+        </gyakorlat>
+        <muszak>II/III</muszak>
+    </gyakornok>
+    <szakacs szkod="sds-7gh-k3" e_sz="sge-dnu-32">
+        <nev>Tibor</nev>
+        <reszleg>II. emelet</reszleg>
+        <vegzettseg>Szakács OKJ Képzés</vegzettseg>
+    </szakacs>
+    <foszakacs fkod="kug-23s-lg" e_f="sge-dnu-32">
+        <nev>Tamás</nev>
+        <eletkor>42</eletkor>
+        <vegzettseg>Miskolci Szakképzési Centrum</vegzettseg>
+        <vegzettseg>Szakács OKJ Képzés</vegzettseg>
+    </foszakacs>
+    <rendeles e_v_e="sge-dnu-32" e_v_v="nhz-djz-22">
+        <osszeg>32000</osszeg>
+        <etel>Leves</etel>
+    </rendeles>
+</adatbazis>
+
+    
+    
