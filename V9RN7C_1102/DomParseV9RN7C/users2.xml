@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="DOMV9RN7C">
+  <user id="1">
+    <firstName>Thomas</firstName>
+    <lastName>Sacramento</lastName>
+    <profession>Docker manager</profession>
+  </user>
+  <user id="2">
+    <firstName>Lily</firstName>
+    <lastName>Woodstock</lastName>
+    <profession>Javascript senior</profession>
+  </user>
+  <user id="3">
+    <firstName>Timothy</firstName>
+    <lastName>Blame</lastName>
+    <profession>DevOps expert</profession>
+  </user>
+</users>
