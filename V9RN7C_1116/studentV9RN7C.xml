@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <student id="1">
+        <keresztnev>Fred</keresztnev>
+        <vezeteknev>Hendrick</vezeteknev>
+        <becenev>Fredagain</becenev>
+        <kor>23</kor>
+        <osztondij>Van</osztondij>
+    </student>
+    <student id="2">
+        <keresztnev>Kennedy</keresztnev>
+        <vezeteknev>Jolton</vezeteknev>
+        <becenev>Ken</becenev>
+        <kor>20</kor>
+        <osztondij>Nincs</osztondij>
+    </student>
+    <student id="3">
+        <keresztnev>Laura</keresztnev>
+        <vezeteknev>Warsaw</vezeteknev>
+        <osztondij>Van</osztondij>
+        <becenev>Lau</becenev>
+        <kor>21</kor>
+    </student>
+</class>
