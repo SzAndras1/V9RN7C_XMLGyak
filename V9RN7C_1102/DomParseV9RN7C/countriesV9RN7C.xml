@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<vilag>
+    <kontinens name="Észak-Amerika">
+            <orszag>
+                <hivalatosnyelv></hivalatosnyelv>
+                <nyelv></nyelv>
+                <kozosseg></kozosseg>
+            </orszag>
+    </kontinens>
+</vilag>
