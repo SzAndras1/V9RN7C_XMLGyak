@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vizsgak_V9RN7C>
+    <vizsga>
+        <kurzus>Adatkezelés XML-ben</kurzus>
+        <helyszin>Inf 101</helyszin>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>12:00</tol>
+            <ig>13:40</ig>
+        </idopont>
+        <oktato>Dr. Bednarik László</oktato>
+        <jegy>3</jegy>
+    </vizsga>
+    <vizsga>
+        <kurzus>Információs rendszerek</kurzus>
+        <helyszin>Inf 103</helyszin>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00</tol>
+            <ig>17:40</ig>
+        </idopont>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <jegy>5</jegy>
+    </vizsga>
+</vizsgak_V9RN7C>

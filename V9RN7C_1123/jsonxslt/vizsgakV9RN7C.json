@@ -1,0 +1,15 @@
+{
+  "vizsgak_V9RN7C": {
+    "vizsga":{
+      "kurzus": "Adatkezelés XML-ben",
+      "helyszin": "Informatikai épület",
+      "idopont": {
+        "nap": "Szerda",
+        "tol": "12:00",
+        "ig": "13:40"
+      },
+      "oktato": "Dr. Bednarik László",
+      "jegy": 5
+    }
+  }
+}
