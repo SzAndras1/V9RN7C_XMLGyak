@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="adatbazis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tulajdonos" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cegnev" maxOccurs="1" />
+                            <xs:element name="adoszam" maxOccurs="1"/>
+                            <xs:element name="alapitas" maxOccurs="1"/>
+                            <xs:element name="bevetel" maxOccurs="1"/>
+                        </xs:sequence>
+                        <xs:attribute name="t_id" use="required" />
+                        <xs:attribute name="f_t" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="fesztival" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" maxOccurs="1"/>
+                            <xs:element name="helyszin" maxOccurs="1" />
+                            <xs:element name="ev" maxOccurs="1" />
+                        </xs:sequence>
+                        <xs:attribute name="fesz_id" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="fellepo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" maxOccurs="1"/>
+                            <xs:element name="orszag" maxOccurs="1"/>
+                            <xs:element name="dij" maxOccurs="1"/>
+                        </xs:sequence>
+                        <xs:attribute name="fel_id" use="required" />
+                        <xs:attribute name="f_f" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="bar" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" type="xs:string"/>
+                            <xs:element name="ital" maxOccurs="unbounded" />
+                            <xs:element name="cegnev"/>
+                        </xs:sequence>
+                        <xs:attribute name="b_id" use="required" />
+                        <xs:attribute name="f_f" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="alkalmazott" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" />
+                            <xs:element name="fizetes" type="xs:positiveInteger"/>
+                            <xs:element name="muszak" maxOccurs="unbounded" />
+                        </xs:sequence>
+                        <xs:attribute name="a_id" use="required" />
+                        <xs:attribute name="f_b" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="resztvevo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" />
+                            <xs:element name="diakigazolvany" type="xs:string"/>
+                            <xs:element name="lakcim">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="telepules" type="xs:string" maxOccurs="1" />
+                                        <xs:element name="utca" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[a-zA-Z]{3,}( utca| út| tér)" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="hazszam" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[0-9]{1,3}(/A|/a|/B|/b|/C|/c|/D|/d)?" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="r_id" use="required" />
+                        <xs:attribute name="f_r" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="kozvelemeny" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="kerdezo" />
+                        </xs:sequence>
+                        <xs:attribute name="r_k_r" use="required" />
+                        <xs:attribute name="ny_k_ny" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nyelvtudas" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nyelv"  type="xs:string"/>
+                            <xs:element name="szint">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="(kezdő|közép|emelt)"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="ny_id" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:unique name="unique_tulajdonos">
+            <xs:selector xpath="tulajdonos"/>
+            <xs:field xpath="@f_t"/>
+        </xs:unique>
+    </xs:element>
+</xs:schema>

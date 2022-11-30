@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="V9RN7Cxml.xsd">
+    <!--Tulajdonos -->
+    <tulajdonos t_id="" f_t="">
+        <cegnev></cegnev>
+        <adoszam></adoszam>
+        <alapitas></alapitas>
+        <bevetel></bevetel>
+    </tulajdonos>
+    
+    <!--Fesztivál -->
+    <fesztival fesz_id="">
+        <nev></nev>
+        <helyszin></helyszin>
+        <ev></ev>
+    </fesztival>
+    <!--Fellépő -->
+    <fellepo fel_id="231dasdas" f_f="">
+        <nev></nev>
+        <orszag></orszag>
+        <dij></dij>
+    </fellepo>
+    <fellepo fel_id="231dasdas" f_f="">
+        <nev></nev>
+        <orszag></orszag>
+        <dij></dij>
+    </fellepo>
+    <fellepo fel_id="231dasdas" f_f="">
+        <nev></nev>
+        <orszag></orszag>
+        <dij></dij>
+    </fellepo>
+    <!--Bár -->
+    <bar b_id="" f_f="">
+        <nev></nev>
+        <ital></ital>
+        <ital></ital>
+        <ital></ital>
+        <cegnev></cegnev>
+    </bar>
+    <bar b_id="" f_f="">
+        <nev></nev>
+        <ital></ital>
+        <ital></ital>
+        <ital></ital>
+        <cegnev></cegnev>
+    </bar>
+    <bar b_id="" f_f="">
+        <nev></nev>
+        <ital></ital>
+        <ital></ital>
+        <ital></ital>
+        <cegnev></cegnev>
+    </bar>
+    <!--Alkalmazott -->
+    <alkalmazott a_id="" f_b="">
+        <nev></nev>
+        <fizetes>321212</fizetes>
+        <muszak></muszak>
+        <muszak></muszak>
+    </alkalmazott>
+    <alkalmazott a_id="" f_b="">
+        <nev></nev>
+        <fizetes>32132</fizetes>
+        <muszak></muszak>
+        <muszak></muszak>
+    </alkalmazott>
+    <alkalmazott a_id="" f_b="">
+        <nev></nev>
+        <fizetes>312312</fizetes>
+        <muszak></muszak>
+        <muszak></muszak>
+    </alkalmazott>
+    
+    <!--Résztvevő -->
+    <resztvevo r_id="dawswqdsad" f_r="">
+        <nev></nev>
+        <diakigazolvany></diakigazolvany>
+        <lakcim>
+            <telepules></telepules>
+            <utca>xyz utca</utca>
+            <hazszam>23</hazszam>
+        </lakcim>
+    </resztvevo>
+    <resztvevo r_id="dawswqdsad" f_r="">
+        <nev></nev>
+        <diakigazolvany></diakigazolvany>
+        <lakcim>
+            <telepules></telepules>
+            <utca>xyz utca</utca>
+            <hazszam>100</hazszam>
+        </lakcim>
+    </resztvevo>
+    <resztvevo r_id="dawswqdsad" f_r="">
+        <nev></nev>
+        <diakigazolvany></diakigazolvany>
+        <lakcim>
+            <telepules></telepules>
+            <utca>xyz utca</utca>
+            <hazszam>23</hazszam>
+        </lakcim>
+    </resztvevo>
+
+    <!--Közvélemény (kapcsolótábla) -->
+    <kozvelemeny r_k_r="" ny_k_ny="">
+        <kerdezo></kerdezo>
+    </kozvelemeny>
+    <kozvelemeny r_k_r="" ny_k_ny="">
+        <kerdezo></kerdezo>
+    </kozvelemeny>
+    <kozvelemeny r_k_r="" ny_k_ny="">
+        <kerdezo></kerdezo>
+    </kozvelemeny>
+    <kozvelemeny r_k_r="" ny_k_ny="">
+        <kerdezo></kerdezo>
+    </kozvelemeny>
+
+    <!--Nyelvtudás -->
+    <nyelvtudas ny_id="sdads2">
+        <nyelv></nyelv>
+        <szint>közép</szint>
+    </nyelvtudas>
+    <nyelvtudas ny_id="sdads2">
+        <nyelv></nyelv>
+        <szint>emelt</szint>
+    </nyelvtudas>
+    <nyelvtudas ny_id="sdads2">
+        <nyelv></nyelv>
+        <szint>kezdő</szint>
+    </nyelvtudas>
+    <nyelvtudas ny_id="sdads2">
+        <nyelv></nyelv>
+        <szint>közép</szint>
+    </nyelvtudas>
+</adatbazis>
