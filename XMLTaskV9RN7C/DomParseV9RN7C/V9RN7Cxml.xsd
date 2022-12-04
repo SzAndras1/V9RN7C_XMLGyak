@@ -25,7 +25,7 @@
             <xs:minInclusive value="200000" />
         </xs:restriction>
     </xs:simpleType>
-
+    
     <!-- Komplex típusok-->
     <xs:complexType name="tulajdonos_type">
         <xs:sequence>
@@ -102,7 +102,7 @@
         <xs:attribute name="r_k_r" use="required" />
         <xs:attribute name="ny_k_ny" use="required" />
     </xs:complexType>
-
+        
     <xs:complexType name="nyelvtudas_type">
         <xs:sequence>
             <xs:element name="nyelv" type="xs:string"/>
@@ -187,7 +187,7 @@
             <xs:selector xpath="kozvelemeny" />
             <xs:field xpath="@r_k_r" />
         </xs:keyref>
-
+        
         <xs:keyref refer="nyelvtudas_kulcs" name="nyelvtudas_idegencs_kulcs">
             <xs:selector xpath="kozvelemeny" />
             <xs:field xpath="@ny_k_ny" />
