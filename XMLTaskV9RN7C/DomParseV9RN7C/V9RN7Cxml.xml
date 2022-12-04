@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="V9RN7Cxml.xsd">
+           xsi:noNamespaceSchemaLocation="V9RN7Cxml.xsd">
     <!--Tulajdonos -->
     <tulajdonos t_id="sgh-32h-j2" fesz_t="dh2-82k-ds">
         <cegnev>Providence Equity Partners</cegnev>
@@ -50,7 +50,7 @@
         <nev>Foods and Drinks</nev>
         <ital>Vodka</ital>
         <ital>Energiaital</ital>
-	<ital>Gin</ital>
+        <ital>Gin</ital>
         <cegnev>Zamardi Foods Kft.</cegnev>
     </bar>
     <!--Alkalmazott -->
@@ -72,7 +72,7 @@
         <muszak>szombat</muszak>
         <muszak>csütörtök</muszak>
     </alkalmazott>
-    
+
     <!--Résztvevő -->
     <resztvevo r_id="wda-312-s2" fesz_r="dh2-82k-ds">
         <nev>Pataki Patrícia</nev>
